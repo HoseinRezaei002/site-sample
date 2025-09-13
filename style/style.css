@@ -41,7 +41,6 @@ nav {
     margin-left: 290px;
 }
 
-#searchSide {}
 
 #firstSection {
     display: flex;
@@ -96,8 +95,9 @@ h4 {
     color: rgb(133, 161, 29);
     cursor: pointer;
 }
-#thiredSection{
-    margin-top:90px;
+
+#thiredSection {
+    margin-top: 90px;
 }
 
 #heroBox {
@@ -122,4 +122,178 @@ h3 {
     color: rgb(133, 161, 29);
     cursor: pointer;
 }
-#thiredSection{font-size: 23px;}
+
+#thiredSection {
+    font-size: 23px;
+}
+
+#fourthSection {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+}
+
+.itamCols {
+    display: block;
+}
+
+#AwardsTitle {
+    border-bottom: none;
+}
+
+.boxes {
+    display: flex;
+    margin: 20px 10px 30px 300px
+}
+
+.boxes h2 {
+    margin-left: 90px;
+    font-size: 25px;
+}
+
+.boxes img {
+    margin-top: 15px;
+    background-color: rgba(196, 196, 196, 0.253);
+    padding: 20px 20px 18px 20px;
+}
+
+.colsTitle {
+    display: block;
+    cursor: pointer;
+}
+
+.colsTitle span {
+    color: rgb(133, 161, 29);
+    cursor: pointer;
+    margin-left: 70px;
+}
+
+#fivethSection {
+    display: flex;
+    margin: 60px 20px 20px 60px;
+}
+
+#titleSide {
+    margin: 0px 70px 20px 120px;
+}
+
+#titleSide h2 {
+    font-size: 30px;
+    color: rgba(2, 2, 2, 0.747);
+}
+
+#titleSide p {
+    font-size: 40px;
+}
+
+form {
+    background-color: rgba(128, 128, 128, 0.158);
+    width: 350px;
+    padding: 20px;
+    margin-left: 350px;
+}
+
+#name {
+    width: 300px;
+    padding: 15px 10px 15px 15px;
+    border: none;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    border-bottom: 1px solid gray;
+    margin: 10px;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.buttons {
+    margin-inline: 0px;
+    width: 171px;
+    background-color: rgba(240, 248, 255, 0);
+    padding: 10px 10px 10px 10px;
+    border: 1px solid rgba(128, 128, 128, 0.616);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.buttons:hover {
+    background-color: rgb(175, 175, 175);
+    transition: 0.5s;
+}
+
+#Email {
+    width: 50%;
+    padding: 15px 10px 15px 15px;
+    border: none;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    border-bottom: 1px solid gray;
+    margin: 10px;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+#Location {
+    width: 300px;
+    padding: 15px 10px 15px 15px;
+    border: none;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    border-bottom: 1px solid gray;
+    margin: 10px;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+#checkbox {
+    width: 300px;
+    padding: 15px 10px 15px 15px;
+    border: none;
+    border: 1px solid gray;
+    margin: 10px;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+#checkboxtitle {
+    color: gray;
+}
+
+#submit {
+    float: right;
+    background-color: rgb(77, 182, 133);
+    border: none;
+    padding: 10px 16px 10px 16px;
+    margin: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#submit:hover {
+    background-color: rgb(45, 109, 79);
+    color: rgb(238, 238, 238);
+    transition: 0.5s;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(161, 161, 161);
+}
+
+#footerPart1 {
+    font-size: 30px;
+    position: relative;
+    top: 150px;
+    margin-left: 90px;
+    margin-right: 200px;
+}
+
+#footerPart2 {
+    background-color: white;
+    margin: 70px 10px 70px 200px;
+    border-radius: 5px;
+    padding: 40px 40px 40px 40px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#footerPart3 {
+    cursor: pointer;
+    background-color: white;
+    margin: 70px 70px 70px 20px;
+    border-radius: 5px;
+    padding: 40px 40px 40px 40px;
+    font-size: 30px;
+}
