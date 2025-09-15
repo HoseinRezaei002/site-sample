@@ -10,9 +10,12 @@ nav {
 
 #leftSideHeader {
     display: flex;
-    background-color: white;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
     margin-left: 10px;
-    padding: 20px -30px 10pxpx 20px;
+height: 10px;
+padding: 10px 400px 20px 20px;
+box-shadow: 3px 3px 3px  rgba(146, 146, 146, 0.575);;
 }
 
 #superTitle {
@@ -22,6 +25,11 @@ nav {
     font-size: 33px;
     color: rgba(252, 252, 252, 0.637);
 }
+#searchSide{width: 160px;}
+#rightSideHeader form input{padding: 10px;
+position:fixed;top: 18px;right: 106.5px;
+border: none;
+box-shadow: 3px 3px 3px rgba(146, 146, 146, 0.575);}
 
 #topRightSpan {
     margin-left: 75px;
@@ -34,14 +42,20 @@ nav {
 
 #rightSideHeaderRighe {
     background-color: rgb(43, 136, 105);
+    height: 16px;
+    padding: 10px 10px 10px 10px;
+    position: fixed;right: 10px;
+    box-shadow: 3px 3px 3px rgba(146, 146, 146, 0.575);
 }
 
 #rightSideLeftSideHeader {
     float: right;
     margin-left: 290px;
+    position: fixed;top: 25px;
 }
 
-
+#rightSideLeftSideHeader{
+position: fixed;}
 #firstSection {
     display: flex;
     margin-top: 10px;
@@ -112,7 +126,12 @@ h3 {
     left: 00px
 }
 
-.nameRow {
+.nameRow1 {
+    margin: 10px 80px 10px 80px;
+    width: 200px;
+    cursor: pointer;
+}
+.nameRow2 {
     margin: 10px 80px 10px 80px;
     width: 200px;
     cursor: pointer;
@@ -126,6 +145,7 @@ h3 {
 #thiredSection {
     font-size: 23px;
 }
+#title3{width: 100%;}
 
 #fourthSection {
     display: flex;
@@ -270,16 +290,22 @@ form {
 footer {
     display: flex;
     background-color: rgb(161, 161, 161);
+    background-image: url(/img/webdesign.png);
 }
 
 #footerPart1 {
     font-size: 30px;
     position: relative;
-    top: 150px;
-    margin-left: 90px;
+    top: 90px;
+    margin-left: 130px;
     margin-right: 200px;
+    color: rgb(255, 255, 255);
+    
 }
-
+#footerPart1 h2{font-size: 60px;}
+#footerPart1 p{font-size: 18px;
+position: relative;top: -30px;
+color: rgba(255, 255, 255, 0.459);}
 #footerPart2 {
     background-color: white;
     margin: 70px 10px 70px 200px;
@@ -287,13 +313,315 @@ footer {
     padding: 40px 40px 40px 40px;
     font-size: 30px;
     cursor: pointer;
+    
 }
+#footerPart2 h2{border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+font-size: 18px;
+position: relative; top: -45px;
+padding-bottom: 15px;
+color: rgba(0, 0, 0, 0.719);
+width: 350px;}
 
 #footerPart3 {
     cursor: pointer;
     background-color: white;
     margin: 70px 70px 70px 20px;
     border-radius: 5px;
-    padding: 40px 40px 40px 40px;
+    padding: 40px 0px 40px 40px;
     font-size: 30px;
 }
+#footerPart3 h2{border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+font-size: 18px;
+position: relative; top: -45px;left: -20px;
+padding-bottom: 15px;
+color: rgba(0, 0, 0, 0.719);
+width: 350px;}
+#footerPart3 h4{border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+font-size: 18px;
+width: 350px;
+position:relative;left: -22px;
+top: 40px;
+padding-bottom: 15px;
+color: rgba(0, 0, 0, 0.719)}
+#footerPart3 div{color: white;
+position: relative;}
+@media(max-width:700px){
+    *{display: flex;
+    flex-direction: column;}
+#firstSection {
+    display: block;
+    margin-top: 10px;
+}
+
+#heroH2FirstSection {
+    margin-left: 180px;
+    font-size: 40px;
+}
+
+#superPara {
+    margin-left: 0px;
+}
+
+#superFirstPara {
+    font-size: 20px;
+}
+#firstPic{width: 100%;}
+#secondSection {
+    display: flex;
+}
+
+h4 {
+    border-bottom: 2px solid rgb(46, 46, 46);
+    width: 1250x;
+    position: relative;
+    left: 300px;
+}
+
+.secondSectionTitle {
+    display:flex;
+    flex-direction: column;
+}
+#title2{width: 100%;
+float: left;
+position: relative;left: 10px;}
+
+#shuanMoore {display: block;
+width: 100%;}
+#seconMainPara {
+    width: 100%;
+    margin: 20px;
+    font-size: 21px;
+}
+
+.secondSectionTitle span {
+    color: rgb(133, 161, 29);
+    cursor: pointer;
+}
+
+
+
+#nameBox {
+  display: block;
+margin-left: 200px;}
+
+  #thiredSection {
+    display: block;
+    font-size: 20px;
+}
+#thirethPic{width: 100%;
+height: 20%;}
+.nameRow1{position: absolute;
+margin-top: 100%;}
+.nameRow2{position: absolute;
+margin-top: 130%;}
+#superThriedPara{position: absolute;
+margin-top: 160%;
+margin-left: 10px;}
+#fourthSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 500px;
+}
+
+.itamCols {
+    display: block;
+}
+
+#AwardsTitle {
+    border-bottom: none;
+}
+
+.boxes {
+    display: flex;
+    margin: 20px 10px 30px 30px
+}
+
+.boxes h2 {
+    margin-left: 90px;
+    font-size: 25px;
+}
+
+.boxes img {
+    margin-top: 15px;
+    background-color: rgba(196, 196, 196, 0.253);
+    padding: 20px 20px 18px 20px;
+}
+
+.colsTitle {
+    display: block;
+    cursor: pointer;
+}
+
+.colsTitle span {
+    color: rgb(133, 161, 29);
+    cursor: pointer;
+    margin-left: 70px;
+}
+#fivethSection {
+    display: flex;
+    margin: 60px 20px 20px 60px;
+}
+#pic5{width: 100%;}
+
+#titleSide {
+    margin: 0px 70px 20px 20px;
+    width: 100%;
+}
+
+#titleSide h2 {
+    font-size: 30px;
+    color: rgba(2, 2, 2, 0.747);
+}
+
+#titleSide p {
+    font-size: 40px;
+}
+
+form {
+    background-color: rgba(128, 128, 128, 0.158);
+    width: 350px;
+    padding: 20px;
+    margin-left: 0px;
+}
+
+#name {
+    width: 300px;
+    padding: 15px 10px 15px 15px;
+    border: none;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    border-bottom: 1px solid gray;
+    margin: 10px;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.buttons {
+    margin-inline: 0px;
+    width: 171px;
+    background-color: rgba(240, 248, 255, 0);
+    padding: 10px 10px 10px 10px;
+    border: 1px solid rgba(128, 128, 128, 0.616);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.buttons:hover {
+    background-color: rgb(175, 175, 175);
+    transition: 0.5s;
+}
+
+#Email {
+    width: 50%;
+    padding: 15px 10px 15px 15px;
+    border: none;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    border-bottom: 1px solid gray;
+    margin: 10px;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+#Location {
+    width: 300px;
+    padding: 15px 10px 15px 15px;
+    border: none;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    border-bottom: 1px solid gray;
+    margin: 10px;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+#checkbox {
+    width: 300px;
+    padding: 15px 10px 15px 15px;
+    border: none;
+    border: 1px solid gray;
+    margin: 10px;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+#checkboxtitle {
+    color: gray;
+}
+
+#submit {
+    float: right;
+    background-color: rgb(77, 182, 133);
+    border: none;
+    padding: 10px 16px 10px 16px;
+    margin: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#submit:hover {
+    background-color: rgb(45, 109, 79);
+    color: rgb(238, 238, 238);
+    transition: 0.5s;
+}
+#footerPart2{position:relative;left: -90px;}
+#footerPart2 h2{width: 100%;} 
+#footerPart3{width: 50%;height: 330px;
+padding: 40px 20px 10px 20px;
+position: relative;left: 90px;}
+#footerPart3 h2{width: 100%;} 
+#footerPart3 h4{width: 100%;}
+nav {
+    background-image: url(/img/webdesign.png);
+    height: 160px;
+    display: flex;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 250px;
+    justify-content: space-between;
+}
+
+#leftSideHeader {
+    display: flex;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+height: 10px;
+padding: 10px 400px 20px 20px;
+box-shadow: 3px 3px 3px  rgba(146, 146, 146, 0.575);;
+}
+
+#superTitle {
+    position: absolute;
+    top: 250px;
+    right: 100px;
+    font-size: 33px;
+    color: rgba(252, 252, 252, 0.637);
+}
+#searchSide{width: 160px;}
+#rightSideHeader form input{padding: 10px 190px 10px 10px;
+position:fixed;top: 120px;right: 100px;
+border: none;
+box-shadow: 3px 3px 3px rgba(146, 146, 146, 0.575);}
+
+#topRightSpan {
+    margin-left: 75px;
+    font-size: 20px;
+    position: relative;top: 10px;
+}
+
+#rightSideHeader {
+    display: flex;
+}
+
+#rightSideHeaderRighe {
+    background-color: rgb(43, 136, 105);
+    height: 16px;
+    padding: 10px 8px 10px 20px;
+    position: fixed;right: 5px;top: 120px;
+    box-shadow: 3px 3px 3px rgba(146, 146, 146, 0.575);
+}
+
+#rightSideLeftSideHeader {
+    float: right;
+    margin-left: 380px;
+    position: fixed;top: 84px;
+}
+
+#rightSideLeftSideHeader{
+position: fixed;}
+}
+
