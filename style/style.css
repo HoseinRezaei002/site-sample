@@ -101,6 +101,7 @@ section {
     padding: 60px;
     gap: 130px;
 }
+#heroParaOne{font-size: 20px;}
 
 #firstSection img {
     width: 20%;
@@ -184,7 +185,7 @@ article {
 }
 
 #team-bio {
-    font-size: 19px;
+    font-size: 20px;
     line-height: 27px;
     color: rgb(30, 30, 30);
 }
@@ -248,7 +249,7 @@ article {
 }
 
 #boardBio {
-    font-size: 19px;
+    font-size: 28px;
     line-height: 27px;
     color: rgb(30, 30, 30);
 }
@@ -270,8 +271,9 @@ article {
 }
 
 #gpsPic img {
-    width: 55%;
+    width: 75%;
     transform: translateY(-250px);
+    margin-top: 200px;
 }
 
 #items {
@@ -289,6 +291,8 @@ article {
     display: flex;
     flex-direction: row;
     justify-content: start;
+    margin-right: 600px;
+    margin-top: 10px;
 }
 
 #awardLogo {
@@ -304,6 +308,9 @@ article {
     margin-bottom: 52px;
     margin-right: 50px;
     padding: 10px;
+}
+#logo9{
+    height: 70px;
 }
 
 #awardName {
@@ -912,8 +919,38 @@ footer {
         border: none;
         padding-top: 0px;
     }
-
-
+#brett{
+    margin: 5px;
+    width: 100%;
+}
+#brett h2{
+margin-bottom: 15px;
+cursor: pointer;
+}
+#Manuel{
+    margin:5px;
+    width: 100%;
+ 
+}
+#Manuel h2{
+    margin-bottom: 15px;
+    margin-top: 20px;
+       cursor: pointer;
+}
+#stan{
+margin: 5px;
+width: 100%;
+margin-top: 20px;
+cursor: pointer;
+}
+#dian{
+margin: 5px;
+width: 100%;
+}
+#dian h2{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
     #fivthSection {
         display: flex;
         flex-direction: column;
@@ -954,6 +991,7 @@ footer {
         padding: 20px;
         gap: 100px;
         height: 1500px;
+    padding-right: 37px;
 
     }
 
